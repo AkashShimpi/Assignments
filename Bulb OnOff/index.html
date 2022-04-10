@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-1</title>
+    <script>
+        var x=false;
+      function turnOff(){
+         document.getElementById('bulb-img').src=" https://www.w3schools.com/js/pic_bulboff.gif"
+      }
+      function turnOn(){
+          document.getElementById('bulb-img').src=" https://www.w3schools.com/js/pic_bulbon.gif"
+      }
+      function turnOnOff(){
+          if(x){
+            document.getElementById('bulb-img').src=" https://www.w3schools.com/js/pic_bulboff.gif"
+            x=false
+          }
+          else{
+            document.getElementById('bulb-img').src=" https://www.w3schools.com/js/pic_bulbon.gif"
+            x=true
+          }
+
+      }
+    </script>
+</head>
+<body>
+    <img id="bulb-img" src="  https://www.w3schools.com/js/pic_bulboff.gif"><br>
+    <button onclick="turnOn()">Light on</button>
+    <button onclick="turnOff()">Light off</button><br>
+    <button onclick="turnOnOff()">Light On/off</button>
+</body>
+</html>
