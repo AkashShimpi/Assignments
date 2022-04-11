@@ -1,0 +1,29 @@
+.backgroud{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    box-shadow: 2px 2px 10px green;
+    margin-left: 22%;
+    margin-top: 5%;
+}
+.A1{
+   
+}
+.squareBox{
+    height: 350px;
+    width: 280px;
+   
+    background-color: rgb(253, 252, 252);
+    text-align: center;
+    margin: 35px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgb(28, 208, 231);
+}
+.image{
+    margin-top: 25%;
+}
+.button{
+    background-color: olive;
+     padding: 5px;
+     border-radius: 5px;
+     color: rgb(194, 206, 25);
+}
