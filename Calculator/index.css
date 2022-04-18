@@ -4,6 +4,7 @@
     margin: 10vh auto 0 auto;
     box-shadow: 5px 5px 10px rgba(153,153,153,1); 
     border: solid black 1px;
+    background-color: cadetblue;
   }
   .button.round{
     border-bottom-right-radius: 50px;
@@ -27,6 +28,7 @@
   .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  
   
   }
   
