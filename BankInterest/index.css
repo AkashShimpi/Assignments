@@ -1,55 +1,59 @@
- h1{
-   text-align: center;
+h1 {
+    text-align: center;
 }
+
 tr td {
     background-color: white;
-    padding:5px;
+    padding: 5px;
     align-items: center;
     text-align: center;
-   
+
 }
-
-
-th{
+th {
     background-color: rgb(253, 89, 89);
-     color: rgb(22, 18, 18);
-    padding:5px
+    color: rgb(22, 18, 18);
+    padding: 5px
 }
-table{
+
+table {
     height: 100px;
     width: 600px;
     background-color: black;
-    box-shadow: 5px 5px 10px ;
-   
+    box-shadow: 5px 5px 10px;
+
 }
-td input{
+
+td input {
     padding: 5px;
     border: 1px solid black;
     border-radius: 15px;
     text-align: center;
-} 
+}
 
-div table {  
-      flex: 50%;
-      justify-content: center;
-      align-items: center;
-      margin-right: auto;
-      margin-left: auto;
-      margin-top: 10%;
-    }
-  div.button{
-     margin-top: 10px;  
-      text-align: center;
-      justify-content: center;
-      
-  }
-  button{
-      height: 35px;
-      width: 80px;
-      border-radius: 10px;
-  }
-  button:hover{
-      background-color: gray;
-      cursor: pointer;
-      color: white;
-  }
+div table {
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+div.button {
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+button {
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+}
