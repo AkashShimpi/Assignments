@@ -4,9 +4,7 @@
 // let y="265000,150000,95000,789562".split(',');
   
   function totalInterest(xyz=0){
-
-
-     let y=(Number)(xyz);
+   let y=(Number)(xyz);
      if(y>200000){
         y=y*1.1
         y=y-y*0.002
@@ -33,9 +31,7 @@ let balance5=document.getElementById('balanced-5').value;
   let balancedAfterInterest4= totalInterest(balance4);
   let balancedAfterInterest5= totalInterest(balance5);
    
-  if(balancedAfterInterest1 != 0){
-     console.log(balancedAfterInterest1)
-     document.getElementById('After1').innerText=balancedAfterInterest1;}
+  if(balancedAfterInterest1 != 0)document.getElementById('After1').innerText=balancedAfterInterest1;
   if(balancedAfterInterest2 != 0)document.getElementById('After2').innerText=balancedAfterInterest2;
   if(balancedAfterInterest3 != 0)document.getElementById('After3').innerText=balancedAfterInterest3;
   if(balancedAfterInterest4 != 0)document.getElementById('After4').innerText=balancedAfterInterest4;
