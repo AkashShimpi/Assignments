@@ -1,0 +1,13 @@
+.validation-form{
+    width: 850px;
+    margin: 10% auto;
+    border: 3px solid black;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px;
+    
+}
+.display-3{
+   margin: 0 0 25px 140px;
+   
+}
